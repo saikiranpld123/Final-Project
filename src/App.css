@@ -1,38 +1,159 @@
-.App {
+.banner-content{
+  position: absolute;
+  z-index: 9999;
+  top: 145px;
+  left:20%;
+}
+
+
+.banner-img{
+  height: calc(100vh - 39px);
+  
+}
+.services{
+  background-color: black;
+  color:white;
+ 
+}
+
+
+.services .col-md-4{
+  padding:10px;
+}
+.services .card{
+  background-color: rgba(41, 41, 41, 0.342);
+  color:white;
+  min-height: 250px;
+  border-color: gold !important;
+}
+
+
+.footer{
+  background-color: black;
+}
+
+
+.navbar{
+  background-color: black !important;
+}
+
+.nav-link{
+  color: white !important;;
+}
+
+
+.navbar-brand{
+  font-style: italic;
+  color:white !important;
+}
+
+
+.login-modal{
+  position: fixed;
+  z-index: 99999;
+  background-color: black;
+  left:calc(40%);
+  top:10%;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}   
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  z-index: 999; /* make sure it's above the overlay */
+}
+ .dropdown-menu {
+  position: absolute;
+  margin-left: -88px !important;
+}
+
+
+
+.banner-bg{
+  background-image: url("./assets/Images/banner-image-1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.w-90{
+  width: 70%;
+}
+
+.w-10{
+  width: 30%;
+}
+
+
+.model {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ }
+ 
+ .login-model h2 {
+  margin-bottom: 20px;
   text-align: center;
-}
+ }
+ 
+ .login-model .form-group {
+  margin-bottom: 15px;
+ }
+ 
+ .login-model .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+ }
+ 
+ .login-model .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .login-model {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .login-model-close-btn{
+   float: right;
+   background-color: transparent; 
+   border: none;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .login-model-close{
+    height: 10px;
+    width: 10px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+ .container-fluid{
+   padding-right: 0px;
+   padding-left: 0px;
+ }
+
+
+ .sidenav{
+   height: calc(100vh - 83px);
+ }
+
+ .nav-link{
+   text-decoration: none !important;
+ }
